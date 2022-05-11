@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en"
+      dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Course Matcher</title>
+
+        
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&display=swap"
+              rel="stylesheet">
+
+        <!-- Preloader -->
+        <link type="text/css"
+              href="../../public/vendor/spinkit.css"
+              rel="stylesheet">
+
+        <!-- Perfect Scrollbar -->
+        <link type="text/css"
+              href="../../public/vendor/perfect-scrollbar.css"
+              rel="stylesheet">
+
+        <!-- Material Design Icons -->
+        <link type="text/css"
+              href="../../public/css/material-icons.css"
+              rel="stylesheet">
+
+        <!-- Font Awesome Icons -->
+        <link type="text/css"
+              href="../../public/css/fontawesome.css"
+              rel="stylesheet">
+
+        <!-- Preloader -->
+        <link type="text/css"
+              href="../../public/css/preloader.css"
+              rel="stylesheet">
+
+        <!-- App CSS -->
+        <link type="text/css"
+              href="../../public/css/app.css"
+              rel="stylesheet">
+
+    </head>
+
+    <body class="layout-mini layout-mini">
+
+        <div class="preloader">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+
+        </div>
+
+        <!-- Drawer Layout -->
+
+        <div class="mdk-drawer-layout js-mdk-drawer-layout"
+             data-push
+             data-responsive-width="992px">
+            <div class="mdk-drawer-layout__content page-content">
+
+                <!-- Header -->
+
+                <div class="navbar navbar-expand navbar-light border-bottom-2"
+                     id="default-navbar"
+                     data-primary>
+
+                    <!-- Navbar toggler -->
+                    <button class="navbar-toggler w-auto mr-16pt d-block d-lg-none rounded-0"
+                            type="button"
+                            data-toggle="sidebar">
+                        <span class="material-icons">short_text</span>
+                    </button>
+
+                    <!-- Navbar Brand -->
+                    <a href="index.html"
+                       class="navbar-brand mr-16pt d-lg-none">
+
+
+                        <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
+
+                            <span class="avatar-title rounded bg-primary"><img src="../../public/images/illustration/student/128/white.svg"
+                                     alt="logo"
+                                     class="img-fluid" /></span>
+
+                        </span>
+
+                        <span class="d-none d-lg-block">Guroo</span>
+                    </a>
+
+                    <ul class="nav navbar-nav d-none d-sm-flex flex justify-content-start ml-8pt">
+                        <li class="nav-item active">
+                            <a href="courses.html"
+                               class="nav-link">Undergraduate</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#"
+                               class="nav-link dropdown-toggle"
+                               data-toggle="dropdown"
+                               data-caret="false">SBS Programmes</a>
+                            <div class="dropdown-menu">
+                              <a href="pre-sessional.html"
+                                 class="dropdown-item">Pre-Sessional</a>
+                                 <a href="foundation.html"
+                                    class="dropdown-item">Foundation</a>
+                                <a href="postgraduate-courses.html"
+                                   class="dropdown-item">Postgraduate</a>
+                                   <a href="research-courses.html"
+                                   class="dropdown-item">Research</a>
+                                <a href="partner-courses.html"
+                                   class="dropdown-item">Partner Courses</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#"
+                               class="nav-link dropdown-toggle"
+                               data-toggle="dropdown"
+                               data-caret="false">About</a>
+                            <div class="dropdown-menu">
+                <a href="staff.html"
+                                   class="dropdown-item">Our Staff</a>
+                <a href="help-center.html"
+                                   class="dropdown-item">Help Center</a>
+                <a href="faq.html"
+                                   class="dropdown-item">FAQ</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown"
+                            data-toggle="tooltip"
+                            data-title="Community"
+                            data-placement="bottom"
+                            data-boundary="window">
+                            <a href="#"
+                               class="nav-link dropdown-toggle"
+                               data-toggle="dropdown"
+                               data-caret="false">
+                                <i class="material-icons">people_outline</i>
+                            </a>
+                            <div class="dropdown-menu">
+
+                                <a href="blog.html"
+                                   class="dropdown-item">Blog</a>
+                <a href="discussions.html"
+                                   class="dropdown-item">Discussions</a>
+                                <a href="discussions-ask.html"
+                                   class="dropdown-item">Ask Question</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <form class="search-form navbar-search d-none d-lg-flex mr-16pt"
+                          action="index.html"
+                          style="max-width: 230px">
+                        <button class="btn"
+                                type="submit"><i class="material-icons">search</i></button>
+                        <input type="text"
+                               class="form-control"
+                               placeholder="Find Your Future">
+                    </form>
+
+                    <!-- Notifications dropdown -->
+                    <div class="nav navbar-nav ml-auto mr-0 dropdown dropdown-notifications dropdown-xs-down-full"
+                         data-toggle="tooltip"
+                         data-title="Notifications"
+                         data-placement="bottom"
+                         data-boundary="window">
+                        <button class="nav-link btn-flush dropdown-toggle"
+                                type="button"
+                                data-toggle="dropdown"
+                                data-caret="false">
+                            <i class="material-icons">notifications_active</i>
+                            <span class="badge badge-notifications badge-dark">1</span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div data-perfect-scrollbar
+                                 class="position-relative">
+                                <div class="dropdown-header"><strong>Notifications</strong></div>
+                                <div class="list-group list-group-flush mb-0">
+
+                                    <a href="javascript:void(0);"
+                                       class="list-group-item list-group-item-action">
+                                        <span class="d-flex align-items-center mb-1">
+                                            <small class="text-black-50">2 days ago</small>
+
+                                        </span>
+                                        <span class="d-flex">
+                                            <span class="avatar avatar-xs mr-2">
+                                                <span class="avatar-title rounded-circle bg-light">
+                                                    <i class="material-icons font-size-16pt text-dark">group</i>
+                                                </span>
+                                            </span>
+                                            <span class="flex d-flex flex-column">
+                                                <strong class="text-black-100">Discussions</strong>
+                                                <span class="text-black-70">How much programming is involved...</span>
+                                            </span>
+                                        </span>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // END Notifications dropdown -->
+
+                    <ul class="nav navbar-nav ml-auto mr-0">
+                        <li class="nav-item">
+                            <a href="login.html"
+                               class="nav-link"
+                               data-toggle="tooltip"
+                               data-title="Lockscreen"
+                               data-placement="bottom"
+                               data-boundary="window"><i class="material-icons">lock</i></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- // END Header -->
+
+                <!-- BEFORE Page Content -->
+
+                <!-- // END BEFORE Page Content -->
+
+                <!-- Page Content -->
+
+
+                <div class="mdk-box bg-primary mdk-box--bg-gradient-primary2 js-mdk-box mb-0"
+                     data-effects="blend-background">
+                    <div class="mdk-box__content">
+                        <div class="py-64pt text-center text-sm-left">
+                            <div class="container d-flex flex-column justify-content-center align-items-center">
+                                <h1 class="text-white mb-0">Course Matcher</h1>
+                            </div>
+                        </div>
+                        <div class="navbar navbar-expand-sm navbar-list navbar-light bg-light border-bottom-2">
+                            <div class="container">
+                                <ul class="nav navbar-nav w-100">
+                                    <li class="nav-item navbar-list__item py-16pt py-sm-0">
+                                        <a href="student-course-unlocked.html"
+                                           class="nav-link"><i class="material-icons icon--left text-primary">keyboard_backspace</i> Return to Course Page</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container page__container">
+                    <form action="course-matcher-result.html">
+                        <div class="row">
+                          <div class="col-lg-7">
+                              <div class="border-left-2 page-section pl-32pt">
+
+                                  <div class="d-flex align-items-center page-num-container mb-16pt">
+                                      <div class="page-num text-primary">1</div>
+                                      <h4>Question 1 of 5</h4>
+                                  </div>
+
+                                  <p class="text-70 mb-32pt mb-lg-64pt">I identify most with creative endeavours and I am confident with using some tools in the Adobe Creative Suite.</p>
+
+                              </div>
+                          </div>
+                          <div class="col-lg-5">
+                              <div class="page-section">
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault"
+                                     id="flexRadioDefault01">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault01">Not a chance! &#128565;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault"
+                                     id="flexRadioDefault02">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault02">Not really &#128556;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault"
+                                     id="flexRadioDefault03">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault03">I am unsure &#129300;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault"
+                                     id="flexRadioDefault04">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault04">This is fairly accurate &#128578;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault"
+                                     id="flexRadioDefault05">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault05">Spot on! That is me &#129327;</label>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-7">
+                              <div class="border-left-2 page-section pl-32pt">
+
+                                  <div class="d-flex align-items-center page-num-container mb-16pt">
+                                      <div class="page-num text-primary">2</div>
+                                      <h4>Question 2 of 5</h4>
+                                  </div>
+
+                                  <p class="text-70 mb-32pt mb-lg-64pt">I consider myself a very analytical person. I enjoy establishing the methodologies of my various projects.</p>
+
+                              </div>
+                          </div>
+                          <div class="col-lg-5">
+                              <div class="page-section">
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault2"
+                                     id="flexRadioDefault06">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault06">Not a chance! &#128565;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault2"
+                                     id="flexRadioDefault07">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault07">Not really &#128556;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault2"
+                                     id="flexRadioDefault08">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault08">I am unsure &#129300;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault2"
+                                     id="flexRadioDefault09">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault09">This is fairly accurate &#128578;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault2"
+                                     id="flexRadioDefault10">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault10">Spot on! That is me &#129327;</label>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-7">
+                              <div class="border-left-2 page-section pl-32pt">
+
+                                  <div class="d-flex align-items-center page-num-container mb-16pt">
+                                      <div class="page-num text-primary">3</div>
+                                      <h4>Question 3 of 5</h4>
+                                  </div>
+
+                                  <p class="text-70 mb-32pt mb-lg-64pt"> I have an avid interest in the global economy. I find learning about statistical models to be an engaging exercise.</p>
+
+                              </div>
+                          </div>
+                          <div class="col-lg-5">
+                              <div class="page-section">
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault3"
+                                     id="flexRadioDefault11">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault11">Not a chance! &#128565;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault3"
+                                     id="flexRadioDefault12">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault12">Not really &#128556;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault3"
+                                     id="flexRadioDefault13">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault13">I am unsure &#129300;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault3"
+                                     id="flexRadioDefault14">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault14">This is fairly accurate &#128578;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault3"
+                                     id="flexRadioDefault15">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault15">Spot on! That is me &#129327;</label>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-7">
+                              <div class="border-left-2 page-section pl-32pt">
+
+                                  <div class="d-flex align-items-center page-num-container mb-16pt">
+                                      <div class="page-num text-primary">4</div>
+                                      <h4>Question 4 of 5</h4>
+                                  </div>
+
+                                  <p class="text-70 mb-32pt mb-lg-64pt"> I consider myself to be a problem solver. I like the idea of developing innovative solutions for businesses and people.</p>
+
+                              </div>
+                          </div>
+                          <div class="col-lg-5">
+                              <div class="page-section">
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault4"
+                                     id="flexRadioDefault16">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault16">Not a chance! &#128565;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault4"
+                                     id="flexRadioDefault17">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault17">Not really &#128556;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault4"
+                                     id="flexRadioDefault18">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault18">I am unsure &#129300;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault4"
+                                     id="flexRadioDefault19">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault19">This is fairly accurate &#128578;</label>
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                     <div class="form-check"><input class="form-check-input"  type="radio"
+                                     name="flexRadioDefault4"
+                                     id="flexRadioDefault20">
+                                       <label class="form-check-label"
+                                        for="flexRadioDefault20">Spot on! That is me &#129327;</label>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                            <div class="col-lg-7">
+                                <div class="border-left-2 page-section pl-32pt">
+
+                                    <div class="d-flex align-items-center page-num-container mb-16pt">
+                                        <div class="page-num text-primary">5</div>
+                                        <h4>Question 5 of 5</h4>
+                                    </div>
+
+                                    <p class="text-70 mb-32pt mb-lg-64pt"> I am a deeply critical thinker. I often find myself evaluating the positives and negatives of everyday issues.</p>
+
+                                    <div class="d-flex flex-column flex-sm-row flex-wrap align-items-center justify-content-center justify-content-md-start">
+                                        <button type="submit"
+                                                class="btn btn-black flex">Finish Quiz</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="page-section">
+                                    <div class="form-group">
+                                       <div class="form-check"><input class="form-check-input"  type="radio"
+                                       name="flexRadioDefault5"
+                                       id="flexRadioDefault21">
+                                         <label class="form-check-label"
+                                          for="flexRadioDefault21">Not a chance! &#128565;</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                       <div class="form-check"><input class="form-check-input"  type="radio"
+                                       name="flexRadioDefault5"
+                                       id="flexRadioDefault22">
+                                         <label class="form-check-label"
+                                          for="flexRadioDefault22">Not really &#128556;</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                       <div class="form-check"><input class="form-check-input"  type="radio"
+                                       name="flexRadioDefault5"
+                                       id="flexRadioDefault23">
+                                         <label class="form-check-label"
+                                          for="flexRadioDefault23">I am unsure &#129300;</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                       <div class="form-check"><input class="form-check-input"  type="radio"
+                                       name="flexRadioDefault5"
+                                       id="flexRadioDefault24">
+                                         <label class="form-check-label"
+                                          for="flexRadioDefault24">This is fairly accurate &#128578;</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                       <div class="form-check"><input class="form-check-input"  type="radio"
+                                       name="flexRadioDefault5"
+                                       id="flexRadioDefault25">
+                                         <label class="form-check-label"
+                                          for="flexRadioDefault25">Spot on! That is me &#129327;</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- // END Page Content -->
+
+                <!-- Footer -->
+
+
+                <!-- // END Footer -->
+
+            </div>
+
+            <!-- // END drawer-layout__content -->
+
+            <!-- drawer -->
+            <div class="mdk-drawer js-mdk-drawer layout-mini__drawer"
+                 id="default-drawer">
+                <div class="mdk-drawer__content js-sidebar-mini"
+                     data-responsive-width="992px"
+                     data-layout="mini">
+
+                    <div class="sidebar sidebar-mini sidebar-dark sidebar-left d-flex flex-column">
+
+                        <!-- Logo Home Button -->
+                        <a href="index.html"
+                           class="sidebar-brand p-0 navbar-height d-flex justify-content-center">
+
+                            <span class="avatar avatar-sm ">
+
+                                <span class="avatar-title rounded bg-black"><img src="../../public/images/illustration/student/128/white.svg"
+                                         class="img-fluid"
+                                         alt="logo" /></span>
+
+                            </span>
+
+                        </a>
+
+
+                        <div class="flex d-flex flex-column justify-content-start"
+                             data-perfect-scrollbar>
+                            <ul class="nav flex-shrink-0 flex-nowrap flex-column sidebar-menu mb-0 js-sidebar-mini-tabs"
+                                role="tablist">
+                                <li class="sidebar-menu-item active"
+                                    data-toggle="tooltip"
+                                    data-title="Student"
+                                    data-placement="right"
+                                    data-boundary="window">
+                                    <a class="sidebar-menu-button"
+                                       href="#sm_student"
+                                       data-toggle="tab"
+                                       role="tab"
+                                       aria-controls="sm_student"
+                                       aria-selected="true">
+                                        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">library_books</i>
+                                        <span class="sidebar-menu-text">Student</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="nav flex-column sidebar-menu align-items-center mb-12pt js-sidebar-mini-tabs"
+                            role="tablist">
+                            <li class="sidebar-account"
+                                style="width: 40px;">
+                                <a href="#sm_account_1"
+                                   class="p-4pt d-flex align-items-center justify-content-center"
+                                   data-toggle="tab"
+                                   role="tab"
+                                   aria-controls="sm_account_1"
+                                   aria-selected="true">
+                                    <img width="32"
+                                         height="32"
+                                         class="rounded"
+                                         src="../../public/images/phillip-chun-long.svg"
+                                         alt="account" />
+                                </a>
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="sidebar sidebar-light sidebar-left flex sidebar-secondary pt-16pt"
+                           data-perfect-scrollbar>
+                           <div class="tab-content">
+                             <div class="tab-pane"
+                                  id="sm_account_1">
+                                 <div class="sidebar-heading">Account</div>
+                                 <ul class="sidebar-menu">
+                                     <li class="sidebar-menu-item">
+                                         <a class="sidebar-menu-button"
+                                            href="edit-account.html">
+                                             <span class="sidebar-menu-text text-primary">Edit Account</span>
+                                         </a>
+                                     </li>
+                                     <li class="sidebar-menu-item text-primary">
+                                         <a class="sidebar-menu-button"
+                                            href="login.html">Logout</a>
+                                     </li>
+                                 </ul>
+                             </div>
+
+                             <div class="tab-pane  fade active show "
+                                  id="sm_student">
+                                 <div class="sidebar-heading">Student</div>
+                                 <ul class="sidebar-menu">
+
+                                     <li class="sidebar-menu-item">
+                                         <a class="sidebar-menu-button"
+                                            href="student-dashboard.html">
+                                             <span class="material-icons text-primary sidebar-menu-icon sidebar-menu-icon--left">account_box</span>
+                                             <span class="sidebar-menu-text text-primary">Dashboard</span>
+                                         </a>
+                                     </li>
+                                     <li class="sidebar-menu-item">
+                                         <a class="sidebar-menu-button"
+                                            href="course-matcher.html">
+                                             <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left text-primary">assessment</span>
+                                             <span class="sidebar-menu-text text-primary">Course Matcher</span>
+                                         </a>
+                                     </li>
+                                     <li class="sidebar-menu-item">
+                                         <a class="sidebar-menu-button"
+                                            href="courses-unlocked.html">
+                                             <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left text-primary">assignment_turned_in</span>
+                                             <span class="sidebar-menu-text text-primary">Saved Courses</span>
+                                         </a>
+                                     </li>
+
+                                 </ul>
+                             </div>
+
+
+                           </div>
+                  </div>
+
+                </div>
+            <!-- // END drawer -->
+
+        </div>
+
+        <!-- // END Drawer Layout -->
+
+        <!-- jQuery -->
+        <script src="../../public/vendor/jquery.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="../../public/vendor/popper.min.js"></script>
+        <script src="../../public/vendor/bootstrap.min.js"></script>
+
+        <!-- Perfect Scrollbar -->
+        <script src="../../public/vendor/perfect-scrollbar.min.js"></script>
+
+        <!-- DOM Factory -->
+        <script src="../../public/vendor/dom-factory.js"></script>
+
+        <!-- MDK -->
+        <script src="../../public/vendor/material-design-kit.js"></script>
+
+        <!-- App JS -->
+        <script src="../../public/js/app.js"></script>
+
+        <!-- Preloader -->
+        <script src="../../public/js/preloader.js"></script>
+
+        <!-- Sidebar Mini JS -->
+        <script src="../../public/js/sidebar-mini.js"></script>
+        <script>
+            (function() {
+                'use strict';
+                // ENABLE sidebar menu tabs
+                $('.js-sidebar-mini-tabs [data-toggle="tab"]').on('click', function(e) {
+                    e.preventDefault()
+                    $(this).tab('show')
+                })
+                $('.js-sidebar-mini-tabs').on('show.bs.tab', function(e) {
+                    $('.js-sidebar-mini-tabs > .active').removeClass('active')
+                    $(e.target).parent().addClass('active')
+                })
+            })()
+        </script>
+
+    </body>
+
+</html>
